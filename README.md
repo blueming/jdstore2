@@ -22,11 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-啦啦
-
-test
-
-这是第二次test
-这是第三次，实验一下修改了不同的地方，会不会有差异，导致拉不下来。
-这是第四次，还能推上去吗？
