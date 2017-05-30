@@ -91,9 +91,9 @@
 
 //---navbar ---
 .navbar-default {
-  color: #FAFAFA;
-  background-color: #F5F5F5; //xzxx
-  border-color: #616161;//边框颜色
+  color: white;
+  background-color: #424242; //xzxx
+  border-color: #424242;//边框颜色
 }
 
 @media (min-width: 768px) {
@@ -103,16 +103,45 @@
 }
 
 navbar-default .navbar-brand {
-  color: red;//字体颜色
+  color: white;//字体颜色
   padding: 10px 15px; //上下10px。。。
   line-height: 30px; //文字航高
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #616161; //鼠标放置在链接上的文字颜色
+  color: #FF6F00; //鼠标放置在链接上的文字颜色
   background-color: transparent;//鼠标放置在链接上的文字背景颜色，这里设为透明
 }
+
+.navbar-default .navbar-nav > li > a{
+   color: #E0E0E0;
+
+ }
+
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+   color: blue;
+
+   background-color: transparent;
+ }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+   color: #FF6F00;
+
+   background-color: #FFE0B2;
+
+ }
+
+ .navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:focus,
+ .navbar-default .navbar-nav > .open > a:hover {
+   background-color: #FFE0B2;
+
+   color: #212121;
+
+ }
 
  //-----footer---
  footer {
