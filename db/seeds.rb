@@ -14,4 +14,88 @@ u.password = "123456"
 u.password_confirmation = "123456"
 
 u.is_admin = true
-u.save 
+u.save
+
+Product.create!(title: "逻辑思维，只要五步",
+                 description: "极简逻辑",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("https://ws4.sinaimg.cn/large/006tKfTcgy1ffxps4235oj308i0c3q4h.jpg")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
+
+Product.create!(title: "",
+                 description: "",
+                 price: 2800,
+                 quantity: 10,
+                 image: open("")
+                 )
