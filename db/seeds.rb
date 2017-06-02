@@ -9,9 +9,9 @@
 u = User.new
 u.email = "1@1.com"
 
-u.password = "123456"
+u.password = "111111"
 
-u.password_confirmation = "123456"
+u.password_confirmation = "111111"
 
 u.is_admin = true
 u.save
