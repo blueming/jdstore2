@@ -18,10 +18,160 @@
  @import "bootstrap";
  @import "font-awesome";
 
- head {
-   background-color: #5C6BC0;
+// ----这是首页css区域--
+.jumbotron {
+  height: 800px;
+  background-image: url('https://ws2.sinaimg.cn/large/006tKfTcgy1fg0bxqeso0j31500pm42h.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -20px;
+  padding-bottom: 110px;
+}
+
+.title {
+  background-color: rgba(250, 250, 250, 0.39);
+  max-width: 500px; //最大宽度
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  border-top-right-radius: 5px; //右上角圆边
+  border-top-left-radius: 5px; //左上角圆边
+}
+
+.jumbotron p {
+  margin: 0; //上下左右margin为0
+  font-size: 26px;
+  max-width: 500px;
+  background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
+  padding: 20px;
+  text-align: left; //文字左对齐
+  color: #222;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-danger {
+  color: #fff; //字体颜色
+  background-color: #4CAF50; //背景颜色
+  border-color: #4CAF50;; //边框颜色
+}
+
+.btn-danger:hover {
+  background-color: #E65100; //鼠标放置btn上的背景颜色
+  border-color: #E65100; //鼠标放置在btn上的边框颜色
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 8px 16px; //通过padding来改变btn大小。
+  font-size: 20px; //btn文字大小
+  letter-spacing: 3px;
+  border-radius: 5px;
+  width: 200px; //这里用指定宽度把btn啦得更长
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.container-fluid .jumbotron{
+   padding-bottom: 110px;//内部的底部边距，这样按钮不会很靠近底部了
+   margin: -20px -40px -15px -40px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+   border-radius: 0;//圆角为0
  }
 
- body {
-   background-color: 0;
+//---navbar ---
+.navbar-default {
+  color: white;
+  background-color: #424242; //xzxx
+  border-color: #424242;//边框颜色
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+navbar-default .navbar-brand {
+  color: white;//字体颜色
+  padding: 10px 15px; //上下10px。。。
+  line-height: 30px; //文字航高
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FF6F00; //鼠标放置在链接上的文字颜色
+  background-color: transparent;//鼠标放置在链接上的文字背景颜色，这里设为透明
+}
+
+.navbar-default .navbar-nav > li > a{
+   color: #E0E0E0;
+
  }
+
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+   color: blue;
+
+   background-color: transparent;
+ }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+   color: #FF6F00;
+
+   background-color: #FFE0B2;
+
+ }
+
+ .navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:focus,
+ .navbar-default .navbar-nav > .open > a:hover {
+   background-color: #FFE0B2;
+
+   color: #212121;
+
+ }
+
+ //----main area---
+ .clr {
+   clear: both;
+ }
+
+ .four {
+   height: 400px;
+   border: 1px solid #EEE;
+ }
+
+ .four p {
+   font-size: 3em;
+   padding: 170px 150px 170px 20px;
+   border-right: 5px solid #EEE;
+   float: left;
+ }
+ .four img {
+   float:left;
+ }
+
+ //-----footer---
+ .foot {
+   background-color: #EEE;
+   margin-top: 400px;
+   height: 180px;
+ }
+
+ .foot p {
+    height: 50px;
+    margin-top: 25px;
+    color: #9E9E9E;
+}
