@@ -15,13 +15,13 @@ production:
   qiniu_secret_key: Xx4Wc0unjp1htmXhqIshVWPkJ-Xa5p4AFrgNlYAb  # 你的 qiniu SecretKey
   qiniu_bucket: blueme  # 你的 qiniu bucket
   qiniu_bucket_domain: oot9fovq4.bkt.clouddn.com  # 你的 qiniu bucket domain
-  SEND_CLOUD_USER_NAME: blueming_test_5OJWGF
-  SEND_CLOUD_USER_KEY: CWsHGXtU5aojP4PE
+  # SEND_CLOUD_USER_NAME: blueming_test_5OJWGF
+  # SEND_CLOUD_USER_KEY: CWsHGXtU5aojP4PE
 
 development:
   qiniu_access_key: U4nXxhN9OLWlL4UKS_288kxsjxNam6ZryFNzz_MQ  # 你的 qiniu AccessKey
   qiniu_secret_key: Xx4Wc0unjp1htmXhqIshVWPkJ-Xa5p4AFrgNlYAb  # 你的 qiniu SecretKey
   qiniu_bucket: blueme  # 你的 qiniu bucket
   qiniu_bucket_domain: oot9fovq4.bkt.clouddn.com  # 你的 qiniu bucket domain
-  SEND_CLOUD_USER_NAME: blueming_test_5OJWGF
-  SEND_CLOUD_USER_KEY: CWsHGXtU5aojP4PE
+  # SEND_CLOUD_USER_NAME: blueming_test_5OJWGF
+  # SEND_CLOUD_USER_KEY: CWsHGXtU5aojP4PE
