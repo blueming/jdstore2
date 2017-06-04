@@ -85,30 +85,51 @@
   margin-bottom: 40px;
 }
 .imagin .one {
+  width: 320px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
   float: left;
 }
 
+.imagin img {
+  width: 100%;
+  height: 100%;
+}
+
 .imagin .two {
+  width: 320px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
   float: left;
 }
 
 .imagin .three {
+  width: 320px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
   float: left;
 }
 
 .imagin .four {
+  width: 320px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
   float: left;
 }
 
-.imagin .five {
+.imagin .five img {
+  // float: left;
+}
+
+.imagin .six img{
   float: left;
 }
 
-.imagin .six {
-  float: left;
-}
-
-.imagin .seven {
+.imagin .seven img{
   float: left;
 }
 
@@ -197,7 +218,7 @@ navbar-default .navbar-brand {
  }
 
  //-----footer---
- .container-fluid .foot {
+ .foot {
    background-color: #EEE;
    margin-top: 400px;
    height: 180px;
