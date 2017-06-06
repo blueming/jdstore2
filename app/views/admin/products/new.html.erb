@@ -1,5 +1,8 @@
-<h2> New Product </h2>
-
+<div class="panel panel-default">
+  <div class="panel-heading">
+<h2 class="panel-titile"> New Product </h2>
+</div>
+<div class="panel-body">
 <%= simple_form_for [:admin, @product] do |f| %>
 
   <div class="group">
@@ -25,3 +28,6 @@
   <%= f.submit "Submit", data: { disable_with: "Submitting..." } %>
 
 <% end %>
+
+</div>
+</div>
